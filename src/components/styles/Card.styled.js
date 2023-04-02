@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const StyledCard = styled.div`
   display: flex;
@@ -21,4 +21,4 @@ export const StyledCard = styled.div`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
   }
-`
+`;
